@@ -1,0 +1,16 @@
+# Ignore files named fp-info-cache
+fp-info-cache
+
+# Ignore files with the .kicad_prl extension
+*.kicad_prl
+
+# Ignore all .zip files in the backup directory
+*-backups/
+backups/
+*.bak
+
+*.ipc
+*-options.json
+*#auto_saved_files#
+*.lck
+*_autosave-*
