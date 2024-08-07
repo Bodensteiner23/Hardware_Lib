@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -7.62 5.842 0)
+			(at 0 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "TP4057"
-			(at -7.62 -7.62 0)
+			(at -2.54 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -137,8 +137,8 @@
 		)
 		(symbol "TP4057_0_0"
 			(rectangle
-				(start -7.62 5.08)
-				(end 10.16 -5.08)
+				(start -5.08 5.08)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -147,9 +147,11 @@
 					(type background)
 				)
 			)
+		)
+		(symbol "TP4057_1_0"
 			(pin open_collector line
-				(at -12.7 2.54 0)
-				(length 5.08)
+				(at -7.62 0 0)
+				(length 2.54)
 				(name "~{CHRG}"
 					(effects
 						(font
@@ -166,8 +168,8 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 0 0)
-				(length 5.08)
+				(at -7.62 -5.08 0)
+				(length 2.54)
 				(name "GND"
 					(effects
 						(font
@@ -184,8 +186,8 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -2.54 0)
-				(length 5.08)
+				(at 10.16 2.54 180)
+				(length 2.54)
 				(name "BAT"
 					(effects
 						(font
@@ -202,8 +204,8 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -2.54 180)
-				(length 5.08)
+				(at -7.62 2.54 0)
+				(length 2.54)
 				(name "VCC"
 					(effects
 						(font
@@ -220,8 +222,8 @@
 				)
 			)
 			(pin open_collector line
-				(at 15.24 0 180)
-				(length 5.08)
+				(at -7.62 -2.54 0)
+				(length 2.54)
 				(name "~{STDBY}"
 					(effects
 						(font
@@ -238,8 +240,8 @@
 				)
 			)
 			(pin input line
-				(at 15.24 2.54 180)
-				(length 5.08)
+				(at 10.16 -5.08 180)
+				(length 2.54)
 				(name "PROG"
 					(effects
 						(font
